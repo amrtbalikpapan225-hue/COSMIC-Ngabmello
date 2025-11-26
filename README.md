@@ -1,2 +1,97 @@
 # COSMIC-Ngabmello
-Website Linkthree sederhana
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ngabmello Official</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #0a0f24, #1b2440);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin: 20px auto;
+    object-fit: cover;
+    border: 3px solid #00eaff;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.bio {
+    opacity: 0.85;
+    margin-bottom: 22px;
+}
+
+.link-btn {
+    display: block;
+    background: #0d1a40;
+    padding: 14px;
+    margin: 12px 0;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #00eaff;
+    transition: 0.3s;
+}
+
+.link-btn:hover {
+    background: #00eaff;
+    color: #0d1a40;
+}
+
+footer {
+    margin-top: 40px;
+    opacity: 0.6;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <!-- FOTO PROFIL (sementara default) -->
+    <img src="https://i.ibb.co/3f9kJ9t/defaultpfp.png" class="profile-img" alt="Foto Profil">
+
+    <h1>Ngabmello Official</h1>
+    <p class="bio">Selamat datang! Pilih link di bawah ini 👇</p>
+
+    <!-- GRUP WHATSAPP -->
+    <a class="link-btn" 
+       href="https://chat.whatsapp.com/IWt7fHEdYg6EYYDO2AXdlh?mode=hqrt1" 
+       target="_blank">
+        💬 Grup WhatsApp Resmi
+    </a>
+
+    <!-- TIKTOK -->
+    <a class="link-btn"
+       href="https://www.tiktok.com/@ngabmello?_r=1&_t=ZS-91hUQNqGaCu"
+       target="_blank">
+        🎵 TikTok Ngabmello
+    </a>
+
+</div>
+
+<footer>© 2025 – Ngabmello Official</footer>
+
+</body>
+</html>
